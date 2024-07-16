@@ -1,0 +1,18 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Production",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main_prod.dart",
+      "args": [
+        "--dart-define=SUPABASE_URL=https://pgukxripgyvaobnqviin.supabase.co",
+        "--dart-define=SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InBndWt4cmlwZ3l2YW9ibnF2aWluIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MTg1NjgxNDYsImV4cCI6MjAzNDE0NDE0Nn0.5eFnltghrr7P4NlXSXPb7hao1j-aVOkSoPBRA5zfgi8"
+      ]
+    }
+  ]
+}

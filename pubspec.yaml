@@ -1,0 +1,44 @@
+name: modules_app
+description: A new Flutter project.
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_web_plugins: # add this line
+    sdk: flutter # and this line
+  flutter_localizations:
+    sdk: flutter
+  intl: any
+
+  supabase_flutter: ^2.5.5
+  supabase_auth_ui: ^0.5.0
+
+  # Routing
+  auto_route: ^9.1.0
+
+  # Dependency injection
+  injectable: ^2.4.2
+  get_it: ^7.7.0
+
+  # Functional programming
+  fpdart: ^1.1.0
+  provider: ^6.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  build_runner: ^2.4.11
+  flutter_lints: ^4.0.0
+  auto_route_generator: ^9.0.0
+  injectable_generator: ^2.6.1
+  dart_openapi_model_gen: ^0.1.5
+
+flutter:
+  uses-material-design: true
